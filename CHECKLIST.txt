@@ -1,0 +1,9 @@
+hero-motif asset: DONE
+index uses hero motif: DONE
+work visuals: DONE
+index uses work SVGs: DONE
+contact social top: DONE
+proper whatsapp link: DONE
+sheet connected: DONE
+seo files: DONE
+all pages: DONE
