@@ -1,11 +1,11 @@
 {
-  "name": "YoDude.in",
-  "short_name": "YoDude",
-  "description": "Creative Design, Branding & Digital Solutions",
+  "name": "YoDude.in - Website Design, Graphic Design & Digital Solutions",
+  "short_name": "YoDude.in",
+  "description": "Visual-first website design, graphic design, branding, business apps and digital solutions.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
-  "background_color": "#ffffff",
+  "background_color": "#fff7ea",
   "theme_color": "#ff8a00",
   "icons": [
     {

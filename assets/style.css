@@ -105,3 +105,10 @@ h1,h2,h3,.sharp{font-family:Impact,"Arial Black","Franklin Gothic Heavy",sans-se
   .footer{padding-bottom:96px}.bottom-nav{position:fixed;left:12px;right:12px;bottom:10px;z-index:90;display:grid;grid-template-columns:repeat(5,1fr);background:rgba(0,63,66,.96);backdrop-filter:blur(18px);border:1px solid rgba(255,255,255,.18);border-radius:28px;overflow:hidden;box-shadow:0 20px 50px rgba(0,0,0,.32)}.bottom-nav a{color:#fff8df;min-height:66px;display:grid;place-items:center;font-size:12px;font-weight:950}.bottom-nav b{display:block;font-size:22px;line-height:1}.bottom-nav a.active{color:#ffb32a}
 }
 @media(max-width:420px){.hero h1{font-size:48px}.container{width:calc(100% - 24px)}.section-title{font-size:39px}.work-card{min-height:138px}}
+
+
+/* Visual SEO brand discovery chips - keeps keywords visible without making the site text-heavy */
+.brand-discovery{margin-top:-18px;margin-bottom:18px}
+.brand-strip{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:center;padding:14px;border:2px solid rgba(0,0,0,.12);border-radius:24px;background:rgba(255,255,255,.72);backdrop-filter:blur(10px);box-shadow:0 12px 30px rgba(0,0,0,.08)}
+.brand-strip span{font-weight:900;font-size:.92rem;padding:10px 14px;border-radius:999px;background:#fff;border:2px solid #111;box-shadow:3px 3px 0 #111}
+@media(max-width:620px){.brand-strip{justify-content:flex-start;overflow-x:auto;flex-wrap:nowrap}.brand-strip span{white-space:nowrap;font-size:.82rem}}
