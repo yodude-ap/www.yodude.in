@@ -519,3 +519,16 @@ input:focus,textarea:focus,select:focus{
   .yd-sticker-button{width:100%;}
   .yd-services-mini-strip{font-size:12px;}
 }
+
+
+/* YoDude transparent cutout sticker correction */
+.yd-sticker-stage{background:transparent!important;border:0!important;box-shadow:none!important;min-height:330px;overflow:visible!important;}
+.yd-sticker-stage:before,.yd-sticker-stage:after{display:none!important;}
+.yd-service-sticker{filter:drop-shadow(0 12px 0 rgba(0,0,0,.18)) drop-shadow(0 30px 22px rgba(43,15,0,.24))!important;}
+.yd-service-sticker:hover{filter:drop-shadow(0 18px 0 rgba(0,0,0,.14)) drop-shadow(0 44px 30px rgba(43,15,0,.34)) saturate(1.08) contrast(1.03)!important;}
+.yd-service-one,.yd-service-two,.yd-service-three,.yd-service-four{width:32%!important;}
+.yd-service-one{left:1.2%!important;top:26px!important;}
+.yd-service-two{left:26.5%!important;top:62px!important;}
+.yd-service-three{left:50.5%!important;top:28px!important;}
+.yd-service-four{right:.2%!important;top:66px!important;}
+@media(max-width:980px){.yd-sticker-stage{overflow-x:auto!important;overflow-y:hidden!important;background:rgba(255,122,24,.18)!important;border-radius:28px!important;padding:24px 16px 34px!important;}.yd-service-sticker{width:100%!important;}}
