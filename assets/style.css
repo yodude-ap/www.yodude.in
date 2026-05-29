@@ -329,3 +329,193 @@ input:focus,textarea:focus,select:focus{
   .services-grid .card{min-height:200px;}
   .footer{padding-bottom:104px;}
 }
+
+
+/* =========================================================
+   Homepage-only service sticker showcase
+   - Replaces old square service cards on index.html only
+   - Service page remains untouched
+   ========================================================= */
+.yd-home-services-sticker-zone{
+  padding-top:58px;
+  padding-bottom:44px;
+  overflow:visible;
+}
+.yd-home-services-head{
+  display:grid;
+  grid-template-columns:1fr auto;
+  gap:18px;
+  align-items:end;
+  margin-bottom:18px;
+}
+.yd-sticker-button{
+  min-height:54px;
+  padding:0 22px;
+  border-radius:18px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:1000;
+  text-transform:uppercase;
+  letter-spacing:.02em;
+  color:#fff8e8;
+  background:linear-gradient(145deg,#16120f,#050403);
+  border:2px solid rgba(255,255,255,.50);
+  box-shadow:0 10px 0 rgba(0,0,0,.28),0 24px 34px rgba(71,24,0,.28),inset 0 5px 0 rgba(255,255,255,.18);
+  transform:translateZ(0) rotate(-1deg);
+  transition:transform .22s cubic-bezier(.2,.9,.2,1),box-shadow .22s cubic-bezier(.2,.9,.2,1);
+  position:relative;
+  overflow:hidden;
+}
+.yd-sticker-button:before{
+  content:"";
+  position:absolute;
+  left:10px;right:10px;top:7px;height:38%;
+  border-radius:inherit;
+  background:linear-gradient(180deg,rgba(255,255,255,.55),transparent);
+  pointer-events:none;
+}
+.yd-sticker-button:hover{
+  transform:translateY(-6px) rotate(1deg) scale(1.035);
+  box-shadow:0 16px 0 rgba(0,0,0,.24),0 34px 50px rgba(71,24,0,.34),inset 0 5px 0 rgba(255,255,255,.22);
+}
+.yd-sticker-stage{
+  position:relative;
+  min-height:335px;
+  border-radius:34px;
+  background:linear-gradient(135deg,rgba(255,137,30,.55),rgba(255,100,17,.32));
+  border:1px solid rgba(255,255,255,.25);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.28),0 24px 60px rgba(92,33,0,.12);
+  overflow:hidden;
+  isolation:isolate;
+  perspective:1200px;
+}
+.yd-sticker-stage:before{
+  content:"";
+  position:absolute;
+  inset:20px;
+  border-radius:30px;
+  background:radial-gradient(circle at 18% 22%,rgba(255,255,255,.22),transparent 22%),radial-gradient(circle at 85% 72%,rgba(255,236,187,.18),transparent 24%);
+  pointer-events:none;
+}
+.yd-sticker-stage:after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:repeating-linear-gradient(90deg,rgba(255,255,255,.055) 0 1px,transparent 1px 86px),repeating-linear-gradient(0deg,rgba(0,0,0,.026) 0 1px,transparent 1px 86px);
+  mix-blend-mode:soft-light;
+  pointer-events:none;
+  z-index:-1;
+}
+.yd-sticker-bg-word{
+  position:absolute;
+  z-index:-1;
+  font-family:'Archivo Black','Arial Black',Impact,sans-serif;
+  font-size:clamp(80px,14vw,190px);
+  letter-spacing:-.08em;
+  line-height:.75;
+  color:rgba(255,255,255,.10);
+  pointer-events:none;
+  text-transform:uppercase;
+  animation:ydStickerGhost 7s ease-in-out infinite;
+}
+.yd-sticker-bg-word.word-a{left:4%;top:8%;transform:rotate(-8deg)}
+.yd-sticker-bg-word.word-b{right:4%;bottom:6%;animation-delay:-3s;transform:rotate(6deg)}
+.yd-service-sticker{
+  position:absolute;
+  display:block;
+  width:min(46%,520px);
+  filter:drop-shadow(0 12px 0 rgba(0,0,0,.20)) drop-shadow(0 30px 22px rgba(73,25,0,.24));
+  transform-style:preserve-3d;
+  transform:translate3d(0,0,0) rotate(var(--r,0deg));
+  animation:ydStickerFloat 5.5s ease-in-out infinite;
+  transition:transform .24s cubic-bezier(.2,.9,.2,1),filter .24s cubic-bezier(.2,.9,.2,1);
+  will-change:transform,filter;
+}
+.yd-service-sticker img{
+  width:100%;
+  height:auto;
+  display:block;
+  user-select:none;
+  -webkit-user-drag:none;
+}
+.yd-service-sticker:hover{
+  z-index:20;
+  transform:translate3d(0,-12px,46px) rotate(var(--hr,var(--r,0deg))) scale(1.08);
+  filter:drop-shadow(0 18px 0 rgba(0,0,0,.18)) drop-shadow(0 42px 30px rgba(55,18,0,.34)) saturate(1.08) contrast(1.03);
+}
+.yd-service-one{left:2.2%;top:32px;--r:-11deg;animation-delay:-.2s;}
+.yd-service-two{left:27.5%;top:58px;--r:9deg;animation-delay:-1.7s;}
+.yd-service-three{left:51%;top:24px;--r:-8deg;animation-delay:-3.1s;}
+.yd-service-four{right:1.2%;top:68px;--r:12deg;animation-delay:-4.4s;}
+.yd-service-one,.yd-service-two,.yd-service-three,.yd-service-four{width:31.5%;}
+.yd-service-one:hover,.yd-service-three:hover{--hr:-3deg;}
+.yd-service-two:hover,.yd-service-four:hover{--hr:3deg;}
+.yd-services-mini-strip{
+  margin-top:16px;
+  border-radius:18px;
+  overflow:hidden;
+  background:#11100d;
+  color:#fff8e8;
+  border:2px solid #11100d;
+  display:flex;
+  align-items:center;
+  gap:18px;
+  white-space:nowrap;
+  padding:12px 0;
+  font-weight:1000;
+  text-transform:uppercase;
+  letter-spacing:.06em;
+  box-shadow:0 16px 28px rgba(54,18,0,.18);
+}
+.yd-services-mini-strip span,.yd-services-mini-strip b{
+  animation:ydServicesMarquee 22s linear infinite;
+}
+.yd-services-mini-strip b{color:#ff7a18;}
+@keyframes ydStickerFloat{
+  0%,100%{translate:0 0;}
+  50%{translate:0 -12px;}
+}
+@keyframes ydStickerGhost{
+  0%,100%{opacity:.72;translate:0 0;}
+  50%{opacity:.35;translate:16px -14px;}
+}
+@keyframes ydServicesMarquee{
+  from{transform:translateX(0)}
+  to{transform:translateX(-100%)}
+}
+@media(max-width:980px){
+  .yd-home-services-head{grid-template-columns:1fr;align-items:start;}
+  .yd-sticker-button{width:max-content;}
+  .yd-sticker-stage{
+    min-height:360px;
+    overflow-x:auto;
+    overflow-y:hidden;
+    display:grid;
+    grid-auto-flow:column;
+    grid-auto-columns:76%;
+    gap:10px;
+    scroll-snap-type:x mandatory;
+    padding:28px 18px 38px;
+  }
+  .yd-service-sticker{
+    position:relative;
+    left:auto!important;right:auto!important;top:auto!important;
+    width:100%!important;
+    align-self:center;
+    scroll-snap-align:center;
+  }
+  .yd-service-one,.yd-service-two,.yd-service-three,.yd-service-four{animation-duration:4.8s;}
+  .yd-sticker-bg-word{display:none;}
+}
+@media(max-width:560px){
+  .yd-home-services-sticker-zone{padding-top:36px;}
+  .yd-sticker-stage{
+    min-height:300px;
+    grid-auto-columns:92%;
+    border-radius:26px;
+    padding:22px 12px 30px;
+  }
+  .yd-sticker-button{width:100%;}
+  .yd-services-mini-strip{font-size:12px;}
+}
