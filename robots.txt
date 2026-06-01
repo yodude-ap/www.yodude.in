@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://www.yodude.in/sitemap.xml
-Sitemap: https://www.yodude.in/image-sitemap.xml
