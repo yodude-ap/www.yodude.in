@@ -532,3 +532,56 @@ input:focus,textarea:focus,select:focus{
 .yd-service-three{left:50.5%!important;top:28px!important;}
 .yd-service-four{right:.2%!important;top:66px!important;}
 @media(max-width:980px){.yd-sticker-stage{overflow-x:auto!important;overflow-y:hidden!important;background:rgba(255,122,24,.18)!important;border-radius:28px!important;padding:24px 16px 34px!important;}.yd-service-sticker{width:100%!important;}}
+
+/* YoDude still-image fix: keeps hero and portfolio/service images static */
+.hero-motif,
+.hero-art .hero-motif{
+  animation:none!important;
+  transition:none!important;
+  will-change:auto!important;
+}
+
+.yd-service-sticker,
+.yd-service-sticker:hover,
+.yd-service-one,
+.yd-service-two,
+.yd-service-three,
+.yd-service-four{
+  animation:none!important;
+  transition:none!important;
+  translate:0 0!important;
+  transform:translate3d(0,0,0) rotate(var(--r,0deg))!important;
+  will-change:auto!important;
+}
+
+.yd-service-sticker img,
+.yd-service-sticker:hover img,
+.yd-hero-project img,
+.yd-side-project img,
+.yd-showcase-card img,
+.yd-snap-row img,
+.yd-hero-project:hover img,
+.yd-side-project:hover img,
+.yd-showcase-card:hover img,
+.yd-snap-row img:hover,
+.work-card,
+.work-card:hover{
+  animation:none!important;
+  transition:none!important;
+  transform:none!important;
+  filter:none!important;
+  will-change:auto!important;
+}
+.yd-service-sticker:hover{
+  filter:drop-shadow(0 12px 0 rgba(0,0,0,.18)) drop-shadow(0 30px 22px rgba(43,15,0,.24))!important;
+}
+.reveal-work,
+.reveal-work.is-visible{
+  opacity:1!important;
+  transform:none!important;
+  transition:none!important;
+}
+.yd-service-sticker.sound:after{
+  display:none!important;
+  animation:none!important;
+}

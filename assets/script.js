@@ -27,18 +27,4 @@ if(yodudeForm){
 }
 
 
-// Homepage service sticker motion: soft 3D tilt on hover/move.
-(function(){
-  const stage=document.querySelector('.yd-sticker-stage');
-  if(!stage) return;
-  const stickers=stage.querySelectorAll('.yd-service-sticker');
-  stickers.forEach((item)=>{
-    item.addEventListener('pointermove',(e)=>{
-      const r=item.getBoundingClientRect();
-      const x=(e.clientX-r.left)/r.width-.5;
-      const y=(e.clientY-r.top)/r.height-.5;
-      item.style.transform=`translate3d(${x*8}px,${-12+y*8}px,52px) rotate(var(--hr,var(--r,0deg))) rotateX(${-y*7}deg) rotateY(${x*9}deg) scale(1.08)`;
-    });
-    item.addEventListener('pointerleave',()=>{ item.style.transform=''; });
-  });
-})();
+// Homepage service sticker motion disabled: images stay still.
