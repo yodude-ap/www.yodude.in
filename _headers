@@ -1,0 +1,14 @@
+# YoDude.in production headers
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  Referrer-Policy: strict-origin-when-cross-origin
+
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/sitemap.xml
+  Content-Type: application/xml; charset=utf-8
+
+/image-sitemap.xml
+  Content-Type: application/xml; charset=utf-8

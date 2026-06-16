@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://www.yodude.in/</loc>
+    <image:image>
+      <image:loc>https://www.yodude.in/assets/yodude-social-preview.png</image:loc>
+      <image:title>YoDude.in website design, graphic design and digital solutions</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.yodude.in/assets/yodude-logo.png</image:loc>
+      <image:title>YoDude.in official logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.yodude.in/assets/yodude-hero-sticker.png</image:loc>
+      <image:title>YoDude homepage creative hero visual</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.yodude.in/assets/service-card-website.png</image:loc>
+      <image:title>YoDude website design service card</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.yodude.in/assets/service-card-graphic.png</image:loc>
+      <image:title>YoDude graphic design service card</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.yodude.in/assets/service-card-apps.png</image:loc>
+      <image:title>YoDude apps and software service card</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.yodude.in/assets/work-ajmi-najmi.jpeg</image:loc>
+      <image:title>Website and app workflow demo mockup</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.yodude.in/assets/work-lk-residency.jpeg</image:loc>
+      <image:title>Website and booking workflow demo mockup</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.yodude.in/assets/work-luna-homestay.jpeg</image:loc>
+      <image:title>Hotel and lodging website demo mockup</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.yodude.in/assets/work-ziro-palace.jpeg</image:loc>
+      <image:title>Food delivery app workflow demo mockup</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.yodude.in/services/</loc>
+    <image:image>
+      <image:loc>https://www.yodude.in/assets/service-card-website.png</image:loc>
+      <image:title>Website Design service visual</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.yodude.in/assets/service-card-graphic.png</image:loc>
+      <image:title>Graphic Design service visual</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.yodude.in/assets/service-card-apps.png</image:loc>
+      <image:title>Apps and Software service visual</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.yodude.in/website-design/</loc>
+    <image:image>
+      <image:loc>https://www.yodude.in/assets/web-mockup-resort-villa.png</image:loc>
+      <image:title>Resort and villa website UI mockup</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.yodude.in/assets/web-mockup-homestay-cabin.png</image:loc>
+      <image:title>Homestay booking website UI mockup</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.yodude.in/assets/web-mockup-gadget-store.png</image:loc>
+      <image:title>Gadget store ecommerce website UI mockup</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.yodude.in/assets/web-mockup-boutique-fashion.png</image:loc>
+      <image:title>Boutique fashion website UI mockup</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.yodude.in/assets/web-mockup-food-delivery.png</image:loc>
+      <image:title>Food ordering website UI mockup</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.yodude.in/assets/web-mockup-cultural-food.png</image:loc>
+      <image:title>Cultural food website UI mockup</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.yodude.in/graphic-design/</loc>
+    <image:image>
+      <image:loc>https://www.yodude.in/assets/graphic-mockup-brand-identity.png</image:loc>
+      <image:title>Brand identity system mockup</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.yodude.in/assets/graphic-mockup-social-media.png</image:loc>
+      <image:title>Social media visual mockup</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.yodude.in/assets/graphic-mockup-business-card.png</image:loc>
+      <image:title>Business card design mockup</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.yodude.in/assets/graphic-mockup-mobile-brand-ui.png</image:loc>
+      <image:title>Mobile brand UI mockup</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.yodude.in/assets/graphic-mockup-product-packaging.png</image:loc>
+      <image:title>Product packaging design mockup</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.yodude.in/apps-software/</loc>
+    <image:image>
+      <image:loc>https://www.yodude.in/assets/apps-mockup-dashboard-system.png</image:loc>
+      <image:title>Business dashboard software mockup</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.yodude.in/assets/apps-mockup-mobile-backend.png</image:loc>
+      <image:title>Mobile app and backend mockup</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.yodude.in/assets/apps-mockup-chaos-to-clarity.png</image:loc>
+      <image:title>Automation workflow mockup</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.yodude.in/assets/apps-mockup-whatsapp-sales.png</image:loc>
+      <image:title>Website to WhatsApp sales system mockup</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.yodude.in/contact/</loc>
+    <image:image>
+      <image:loc>https://www.yodude.in/assets/yodude-social-preview.png</image:loc>
+      <image:title>YoDude.in contact page social preview</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.yodude.in/about/</loc>
+    <image:image>
+      <image:loc>https://www.yodude.in/assets/yodude-social-preview.png</image:loc>
+      <image:title>YoDude.in about page social preview</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.yodude.in/homestay-websites/</loc>
+    <image:image>
+      <image:loc>https://www.yodude.in/assets/yodude-social-preview.png</image:loc>
+      <image:title>YoDude.in homestay website design preview</image:title>
+    </image:image>
+  </url>
+</urlset>
