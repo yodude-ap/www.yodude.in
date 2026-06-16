@@ -51,7 +51,7 @@
       "logo": "https://www.yodude.in/assets/yodude-logo.png",
       "image": [
         "https://www.yodude.in/assets/yodude-social-preview.png",
-        "https://www.yodude.in/assets/hero-motif.png",
+        "https://www.yodude.in/assets/yodude-hero-sticker.png",
         "https://www.yodude.in/assets/yodude-logo.png"
       ],
       "description": "Visual-first website design, graphic design, branding, business apps, hosting and digital solutions for small businesses, homestays, shops and creators.",
@@ -175,6 +175,85 @@
 @media(max-width:900px){.hero-art .hero-motif{width:min(92vw,430px);max-height:none;transform:rotate(-1deg) scale(1);}}
 </style>
 
+
+<style id="yd-final-clean-layout-fix-20260616">
+/* Final requested fixes: logo paths, straight full images, no text overlays/links, bold nav */
+.navlinks a{
+  font-family:'Archivo Black','Arial Black',Impact,sans-serif!important;
+  font-weight:1000!important;
+  font-size:clamp(17px,1.15vw,22px)!important;
+  line-height:1!important;
+  letter-spacing:-.015em!important;
+  color:#050505!important;
+  text-transform:uppercase!important;
+  -webkit-text-stroke:.25px currentColor;
+}
+.navlinks a:after{height:5px!important;background:#050505!important;border-radius:999px!important;bottom:-14px!important;}
+.hero-art{overflow:visible!important;perspective:none!important;}
+.hero-art .hero-motif,.hero-motif{
+  transform:none!important;
+  rotate:0deg!important;
+  scale:1!important;
+  animation:none!important;
+  transition:none!important;
+  width:min(100%,540px)!important;
+  max-height:560px!important;
+  height:auto!important;
+  object-fit:contain!important;
+  border-radius:28px!important;
+  outline:0!important;
+  border:0!important;
+  box-shadow:none!important;
+  filter:drop-shadow(0 22px 0 rgba(0,0,0,.10)) drop-shadow(0 34px 34px rgba(52,20,0,.28))!important;
+}
+.yd-clean-showcase-section{overflow:visible!important;}
+.yd-clean-work-grid{
+  display:grid!important;
+  grid-template-columns:repeat(2,minmax(0,1fr))!important;
+  gap:34px!important;
+  align-items:start!important;
+  margin-top:30px!important;
+}
+.yd-clean-work-card{
+  display:block!important;
+  position:relative!important;
+  width:100%!important;
+  border-radius:36px!important;
+  overflow:hidden!important;
+  background:linear-gradient(145deg,#fff3dc,#ffca7a)!important;
+  border:0!important;
+  outline:0!important;
+  padding:0!important;
+  box-shadow:0 18px 0 rgba(0,0,0,.08),0 32px 70px rgba(72,28,0,.22)!important;
+  transform:none!important;
+}
+.yd-clean-work-card img{
+  display:block!important;
+  width:100%!important;
+  max-width:100%!important;
+  height:auto!important;
+  aspect-ratio:auto!important;
+  object-fit:contain!important;
+  object-position:center center!important;
+  border-radius:36px!important;
+  border:0!important;
+  outline:0!important;
+  box-shadow:none!important;
+  transform:none!important;
+  rotate:0deg!important;
+  scale:1!important;
+  filter:none!important;
+  transition:none!important;
+}
+.yd-project-copy,.yd-card-glass,.yd-side-project>div{display:none!important;}
+.yd-hero-project,.yd-side-project,.yd-showcase-card{pointer-events:none!important;}
+@media(max-width:900px){
+  .navlinks a{font-size:18px!important;}
+  .yd-clean-work-grid{grid-template-columns:1fr!important;gap:24px!important;}
+  .yd-clean-work-card,.yd-clean-work-card img{border-radius:28px!important;}
+  .hero-art .hero-motif,.hero-motif{width:min(92vw,430px)!important;max-height:none!important;transform:none!important;}
+}
+</style>
 <!-- Google Analytics -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-CWQV4T3VWH"></script>
 <script>
@@ -232,62 +311,31 @@ IT solution</p><div class="hero-actions"><a class="btn red sound" href="#work">S
     <span>Website Development</span><b>•</b><span>Graphic Design</span><b>•</b><span>Apps &amp; Software</span><b>•</b><span>Hosting &amp; Domain</span><b>•</b>
   </div>
 </section>
-<section id="work" class="container section yd-showcase-section">
-  <div class="yd-work-top reveal-work">
+<section id="work" class="container section yd-showcase-section yd-clean-showcase-section">
+  <div class="yd-work-top yd-clean-work-top">
     <div>
       <div class="eyebrow">Featured Work</div>
-      <h2 class="section-title yd-work-title">Free Website Live Demo. </h2>
+      <h2 class="section-title yd-work-title">Free Website Live Demo.</h2>
     </div>
-    <p class="yd-work-intro">Get a clear picture of what your website will look like...</p>
+    <p class="yd-work-intro">Get a clear picture of what your website will look like.</p>
   </div>
 
-  <div class="yd-floating-word word-one">VISUAL-FIRST</div>
-  <div class="yd-floating-word word-two">DEMO SITES</div>
-
-  <div class="yd-featured-stage reveal-work">
-    <div class="yd-hero-project yd-image-only" aria-label="Homestay website demo mockup image">
-      <img src="/assets/work-ajmi-najmi.jpeg" alt="Homestay website demo mockup image">
+  <div class="yd-clean-work-grid" aria-label="Yo Dude visual website and app demo mockups">
+    <div class="yd-clean-work-card">
+      <img src="/assets/work-ajmi-najmi.jpeg" alt="Resort website and app workflow mockup">
     </div>
-
-    <div class="yd-side-project yd-image-only" aria-label="Hotel website demo mockup image">
-      <img src="/assets/work-lk-residency.jpeg" alt="Hotel website demo mockup image">
+    <div class="yd-clean-work-card">
+      <img src="/assets/work-lk-residency.jpeg" alt="Homestay website and booking workflow mockup">
     </div>
-  </div>
-
-  <div class="yd-motion-strip reveal-work" aria-label="Moving live demo website showcase">
-    <div class="yd-marquee-track">
-      <span>Booking Websites</span><b>•</b><span>Homestay Demos</span><b>•</b><span>Hotel Pages</span><b>•</b><span>WhatsApp Leads</span><b>•</b><span>Visual Portfolio</span><b>•</b><span>Mobile Ready</span><b>•</b>
-      <span>Booking Websites</span><b>•</b><span>Homestay Demos</span><b>•</b><span>Hotel Pages</span><b>•</b><span>WhatsApp Leads</span><b>•</b><span>Visual Portfolio</span><b>•</b><span>Mobile Ready</span><b>•</b>
+    <div class="yd-clean-work-card">
+      <img src="/assets/work-luna-homestay.jpeg" alt="Hotel and lodging website booking workflow mockup">
+    </div>
+    <div class="yd-clean-work-card">
+      <img src="/assets/work-ziro-palace.jpeg" alt="Food delivery app and website workflow mockup">
     </div>
   </div>
 
-  <div class="yd-showcase-grid">
-    <div class="yd-showcase-card yd-image-only tall reveal-work">
-      <img src="/assets/work-ziro-palace.jpeg" alt="Premium stay website demo mockup image">
-    </div>
-
-    <div class="yd-showcase-card yd-image-only reveal-work">
-      <img src="/assets/work-luna-homestay.jpeg" alt="Booking flow website demo mockup image">
-    </div>
-
-    <div class="yd-text-card reveal-work">
-      <span class="yd-mini">Not just screenshots</span>
-      <h3>We design the whole journey.</h3>
-      <p>Hero section, room showcase, service cards, gallery motion, booking CTA, contact flow and mobile view — everything made to feel alive.</p>
-      <a class="btn red sound" href="/contact/">Start Your Demo ↗</a>
-    </div>
-  </div>
-
-  <div class="yd-snap-row reveal-work" aria-label="More YoDude website mockups">
-    <img src="/assets/work-extra-1.png" alt="YoDude additional website mockup visual one">
-    <img src="/assets/work-extra-2.png" alt="YoDude additional website mockup visual two">
-    <img src="/assets/work-extra-3.png" alt="YoDude additional website mockup visual three">
-    <img src="/assets/work-extra-4.png" alt="YoDude additional website mockup visual four">
-    <img src="/assets/work-extra-5.png" alt="YoDude additional website mockup visual five">
-    <img src="/assets/work-extra-6.png" alt="YoDude additional website mockup visual six">
-  </div>
-
-  <div class="cta-band yd-work-cta reveal-work"><h2>Want a live demo<br><span class="red">for your business?</span></h2><a class="btn red sound" href="/contact/">Get a Quote ↗</a></div>
+  <div class="cta-band yd-work-cta"><h2>Want a live demo<br><span class="red">for your business?</span></h2><a class="btn red sound" href="/contact/">Get a Quote ↗</a></div>
 </section>
 </main><footer class="footer"><div class="container footer-grid"><div><img src="/assets/yodude-logo.png" alt="YoDude.in official logo - Yo Dude digital solutions"><h3>Yo Dude (Tuitui)</h3><p>Creative website, app, branding, graphic design, hosting and domain solutions for small businesses, creators and growing brands in Arunachal Pradesh and across India.</p></div><div><h3>Our Services</h3><a href="/website-design/">Website Development</a><a href="/graphic-design/">Graphic Design</a><a href="/apps-software/">Apps &amp; Software</a><a href="/hosting-domain/">Hosting &amp; Domain</a></div><div><h3>Contact YoDude</h3><a href="mailto:yodudehost@gmail.com">yodudehost@gmail.com</a><a href="tel:+919862233669">+91 9862233669</a><a href="https://www.yodude.in/">www.yodude.in</a><p>Itanagar, Arunachal Pradesh, India.</p></div></div><div class="container footer-bottom"><span>© 2026 Yo Dude. Website, App, Branding &amp; Digital Solutions.</span><span>No confusion, only solution.</span></div></footer><nav class="bottom-nav"><a class="active" href="/"><span><b>⌂</b>Home</span></a><a class="" href="/services/"><span><b>▦</b>Services</span></a><a href="/#work"><span><b>▣</b>Work</span></a><a class="" href="/how-it-works/"><span><b>⚡</b>How</span></a><a class="" href="/contact/"><span><b>✉</b>Contact</span></a></nav><script src="/assets/script.js"></script>
 <script>

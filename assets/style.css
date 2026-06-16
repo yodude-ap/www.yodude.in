@@ -592,31 +592,30 @@ section#home-services > div.yd-home-services-head > div > h2.section-title {
 }
 
 
-/* YoDude fix: image-only featured work cards after removing demo text/links */
-.yd-image-only{
-  padding:0!important;
-  display:block!important;
-  overflow:hidden;
-  cursor:default!important;
+/* Final requested fixes 20260616 */
+.navlinks a{
+  font-family:'Archivo Black','Arial Black',Impact,sans-serif!important;
+  font-weight:1000!important;
+  font-size:clamp(17px,1.15vw,22px)!important;
+  line-height:1!important;
+  letter-spacing:-.015em!important;
+  color:#050505!important;
+  text-transform:uppercase!important;
+  -webkit-text-stroke:.25px currentColor;
 }
-.yd-image-only img{
-  width:100%!important;
-  height:100%!important;
-  min-height:360px;
-  object-fit:cover!important;
-  border-radius:inherit!important;
-  display:block!important;
+.navlinks a:after{height:5px!important;background:#050505!important;border-radius:999px!important;bottom:-14px!important;}
+.hero-art .hero-motif,.hero-motif{
+  transform:none!important;
+  rotate:0deg!important;
+  scale:1!important;
+  animation:none!important;
+  transition:none!important;
+  height:auto!important;
+  object-fit:contain!important;
+  border:0!important;
+  outline:0!important;
 }
-.yd-featured-stage .yd-image-only,
-.yd-featured-stage .yd-image-only img{
-  min-height:520px;
-}
-.yd-showcase-card.yd-image-only img{
-  min-height:100%;
-}
-@media(max-width:900px){
-  .yd-featured-stage .yd-image-only,
-  .yd-featured-stage .yd-image-only img{
-    min-height:360px;
-  }
-}
+.yd-clean-work-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:34px;align-items:start;margin-top:30px;}
+.yd-clean-work-card{border-radius:36px;overflow:hidden;background:linear-gradient(145deg,#fff3dc,#ffca7a);border:0;outline:0;padding:0;box-shadow:0 18px 0 rgba(0,0,0,.08),0 32px 70px rgba(72,28,0,.22);}
+.yd-clean-work-card img{display:block;width:100%;height:auto;object-fit:contain;border-radius:36px;border:0;outline:0;transform:none!important;filter:none!important;transition:none!important;}
+@media(max-width:900px){.yd-clean-work-grid{grid-template-columns:1fr;gap:24px}.yd-clean-work-card,.yd-clean-work-card img{border-radius:28px}.navlinks a{font-size:18px!important}}
