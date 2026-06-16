@@ -585,3 +585,38 @@ input:focus,textarea:focus,select:focus{
   display:none!important;
   animation:none!important;
 }
+
+/* CodeCanvas visual style */
+section#home-services > div.yd-home-services-head > div > h2.section-title {
+  color: #ffffff;
+}
+
+
+/* YoDude fix: image-only featured work cards after removing demo text/links */
+.yd-image-only{
+  padding:0!important;
+  display:block!important;
+  overflow:hidden;
+  cursor:default!important;
+}
+.yd-image-only img{
+  width:100%!important;
+  height:100%!important;
+  min-height:360px;
+  object-fit:cover!important;
+  border-radius:inherit!important;
+  display:block!important;
+}
+.yd-featured-stage .yd-image-only,
+.yd-featured-stage .yd-image-only img{
+  min-height:520px;
+}
+.yd-showcase-card.yd-image-only img{
+  min-height:100%;
+}
+@media(max-width:900px){
+  .yd-featured-stage .yd-image-only,
+  .yd-featured-stage .yd-image-only img{
+    min-height:360px;
+  }
+}
